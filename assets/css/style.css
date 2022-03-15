@@ -1,0 +1,17 @@
+.allcountry {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.singlecountry {
+  border: 1px solid#FF0000;
+  background: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.content h2 {
+  text-align: center;
+}
+.singlecountry img {
+  width: 200px;
+}
